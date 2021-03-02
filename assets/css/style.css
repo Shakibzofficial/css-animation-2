@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: calc(100vh - 50px);
+    background-image: url(../img/cars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #a8bbc2;
+    display: flex;
+    mix-blend-mode: hue;
+}
+ul li{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    list-style: none;
+}
+
+ul:hover li{
+    opacity: 0;
+}
+
+ul li:hover{
+    opacity: 1;
+}
+ul li:nth-child(1){
+    background-color: #41b2ea;
+}
+
+ul li:nth-child(2){
+    background-color: #ea4141;
+}
+
+ul li:nth-child(3){
+    background-color: #ecb92e;
+}
+
+ul li:nth-child(4){
+    background-color: #51d696;
+}
+
+ul li:nth-child(5){
+    background-color: #ca300d;
+}
+
+
+ul li:hover:nth-child(1){
+    box-shadow: 0 0 0 1500px #41b2ea;
+}
+
+ul li:hover:nth-child(2){
+    box-shadow: 0 0 0 1500px #ea4141;
+}
+
+ul li:hover:nth-child(3){
+    box-shadow: 0 0 0 1500px #ecb92e;
+}
+
+ul li:hover:nth-child(4){
+    box-shadow: 0 0 0 1500px #51d696;
+}
+
+ul li:hover:nth-child(5){
+    box-shadow: 0 0 0 1500px #ca300d;
+}
